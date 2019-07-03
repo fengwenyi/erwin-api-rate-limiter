@@ -1,0 +1,11 @@
+
+
+spring:
+  application:
+    name: erwin-api-rate-limiter
+
+  # redis
+  redis:
+    cluster:
+      nodes: 192.168.1.201:7001,192.168.1.201:7002,192.168.1.202:7003,192.168.1.202:7004,192.168.1.203:7005,192.168.1.203:7006
+    password: jsdz@1234
